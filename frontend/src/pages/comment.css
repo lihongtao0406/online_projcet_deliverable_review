@@ -1,0 +1,88 @@
+.comment {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    min-height: 50px;
+  }
+   
+  .comment .comment-user {
+    flex-shrink: 0;
+  }
+   
+  .comment-username {
+    color: #00a3cf;
+    font-style: italic;
+    font-size: 20px;
+  }
+   
+  .comment-createdtime {
+    padding-right: 5px;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+  }
+  .comment-score{
+    padding-right: 5px;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    right:10px;
+    font-weight: bold;
+  } 
+  .comment-delete:hover  {
+    color: red;
+  }
+   
+  .comment-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:#00a3cf;
+    font-size: 12px;
+    cursor: pointer;
+  }
+   
+  .comment p {
+    margin: 0;
+    /*text-indent: 2em;*/
+  }
+  .firstrow{
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .secondrow{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+    height: 40px;
+  }
+  .projectscore{
+    margin-bottom: 10px;
+  }
+  .comment_name{
+    color: #00a3cf;
+    font-style: italic;
+  }
+  .fontcolor{
+    color: #ccc;
+  }
+  .comment_part{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    min-height: 50px;
+    background: white;
+  }
+  .thirdrow{
+    height:60px;
+    overflow: auto;
+  }
+  .first_2{
+    margin-right: 10px;
+  }
